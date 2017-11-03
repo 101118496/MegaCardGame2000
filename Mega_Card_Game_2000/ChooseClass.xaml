@@ -3,10 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:shapes="clr-namespace:WpfShapes;assembly=WpfShapes"
         xmlns:local="clr-namespace:Mega_Card_Game_2000"
         mc:Ignorable="d"
         Title="ChooseClass" Height="300" Width="300">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Label Height="60" Width="auto" FontSize="23" Margin="0,10,0,0" VerticalAlignment="Center" HorizontalAlignment="Center">Choose Class</Label>
+            <Button x:Name="Warrior" Height="55" Width="auto" FontSize="30" Margin="0,8,0,0">Warrior</Button>
+            <Button x:Name="Thief"   Height="55" Width="auto" FontSize="30" Margin="0,8,0,0">Thief</Button>
+            <Button x:Name="Mage"    Height="55" Width="auto" FontSize="30" Margin="0,8,0,0">Mage</Button>
+        </StackPanel>
     </Grid>
 </Window>

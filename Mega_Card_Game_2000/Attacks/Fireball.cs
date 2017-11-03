@@ -4,20 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mega_Card_Game_2000.Attacks
+namespace Mega_Card_Game_2000
 {
     class Fireball : SpecialAttack
     {
-        public void CalculateSuccess()
+        public override bool CalculateSuccess()
         {
-            //Calculates if the special
-            //attack is successful or
-            //not.
+            return base.CalculateSuccess();
         }
 
-        public void AttackFail()
-        {
+        //public void AttackFail()
+        //{
 
-        }
+        //}
     }
 }

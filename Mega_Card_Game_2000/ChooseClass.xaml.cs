@@ -23,5 +23,10 @@ namespace Mega_Card_Game_2000
         {
             InitializeComponent();
         }
+
+        private void Warrior_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

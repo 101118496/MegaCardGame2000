@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mega_Card_Game_2000.Attacks;
 
-namespace Mega_Card_Game_2000.Characters
+namespace Mega_Card_Game_2000
 {
     class PlayerCharacter : Player
     {
-        private char CharacterName { get; set; }
-        private NormalAttack NormalAttack { get; set; }
-        private SpecialAttack SpecialAttack { get; set; }
+        private char characterName { get; set; }
+        private NormalAttack normalAttack { get; set; }
+        private SpecialAttack specialAttack { get; set; }
     }
 }

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mega_Card_Game_2000.Attacks;
 
-namespace Mega_Card_Game_2000.Characters
+namespace Mega_Card_Game_2000
 {
     class NonPlayerCharacter : Player
     {

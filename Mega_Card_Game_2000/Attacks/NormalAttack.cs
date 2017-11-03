@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mega_Card_Game_2000.Attacks
+namespace Mega_Card_Game_2000
 {
     class NormalAttack
     {
-        public int TakeDamage()
-        {
-            //Takes the amount of
-            //damage from either a
-            //normalAttack or
-            //specialAttack and is
-            //applied the receiving
-            //players health.
-            throw new NotImplementedException();
-        }
+        //public int takedamage()
+        //{
+        //    //takes the amount of
+        //    //damage from either a
+        //    //normalattack or
+        //    //specialattack and is
+        //    //applied the receiving
+        //    //players health.
+        //    throw new notimplementedexception();
+        //}
 
         public int ReturnHealth()
         {
