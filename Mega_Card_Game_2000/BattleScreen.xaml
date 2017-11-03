@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="BattleScreen" Height="300" Width="300">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <Button Name="BeginBattleBtn">Begin Battle</Button>
+            <Label Name="PlayerNameLbl" Margin="0,10,0,0">Player Character</Label>
+            <Label Name="PlayerHealthLbl" Margin="0,10,0,0">Health</Label>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom">
+            <Button Name="AttackBtn" Margin="0,10,0,0">Attack</Button>
+            <Button Name="SpecialAttackBtn" Margin="0,10,0,0">SpecialAttack</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <Label Name="NonPlayerCharacterLbl" Margin="0,10,0,0">NonPlayerCharacter</Label>
+            <Label Name="NonPlayerCharacterHealthLbl" Margin="0,10,0,0">Health</Label>
+        </StackPanel>
     </Grid>
 </Window>

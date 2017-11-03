@@ -10,6 +10,7 @@ namespace Mega_Card_Game_2000
     {
         public Mage()
         {
+
         }
     }
 }

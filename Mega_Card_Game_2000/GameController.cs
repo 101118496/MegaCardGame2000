@@ -11,10 +11,20 @@ namespace Mega_Card_Game_2000
         private PlayerCharacter player { get; set; }
         private NonPlayerCharacter enemy { get; set; }
 
-        public char ChooseClass()
-        { 
+        public char ChooseClass(char CharacterClass)
+        {
             //The player will choose
             //their character to play as.
+            if(CharacterClass = "w")
+            { 
+            PlayerCharacter player = new Warrior();
+            }
+            elseif (CharacterClass = "m")
+            {
+            PlayerCharacter player = new Mage();
+            } elseif (CharacterClass = "t") {
+                PlayerCharacter player = new Thief();
+            }
             throw new NotImplementedException();
         }
 
